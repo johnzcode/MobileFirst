@@ -159,6 +159,15 @@ main {
     color: #757575;
 }
 
+.main-tables-container {
+    display: flex;
+    padding: 0 50px;
+    gap: 50px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .main-currency-table {
     width: 70%;
     min-width: 235px;
